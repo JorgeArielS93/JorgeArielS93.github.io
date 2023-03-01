@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi CV</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <meta property="og:title" content="Mi CV Proyecto Final" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="#" />
+    <meta
+      property="og:image"
+      content="https://w7.pngwing.com/pngs/568/379/png-transparent-technology-computer-icons-technology-electronics-text-logo.png"
+    />
   </head>
   <body>
     <div class="container">
@@ -13,17 +20,24 @@
         <div class="col">
           <header class="navbar">
             <div class="container-fluid">
-              <span class="navbar-brand mb-0 h1">Gutierrez Daniel Jesus Especialista en marketing Digital</span>
+              <h2 class="cabezazo">
+                Gutierrez Daniel Jesus Especialista en Marketing Digital
+              </h2>
             </div>
           </header>
         </div>
       </div>
-      
+
       <div class="row">
         <div class="col">
           <nav class="navbar">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#" target="_blank">Contacto</a>
+              <a
+                class="navbar-brand"
+                href="https://www.youtube.com/watch?v=i4t1bGD-j9M"
+                target="_blank"
+                >Contacto</a
+              >
             </div>
           </nav>
         </div>
@@ -120,17 +134,47 @@
         </div>
         <div class="col-sm-12 col-md-6">
           <aside>
-            <img class="imagen mx-auto d-block" src="images/Foto-CV-Hombre.jpg" alt="FOto de Perfil" />
+            <img
+              class="imagen mx-auto d-block"
+              src="images/Foto-CV-Hombre.jpg"
+              alt="FOto de Perfil"
+            />
           </aside>
         </div>
       </div>
+      <hr />
+      <h5>
+        Adjunto algunas imagenes de mi junto a mi equipo de Desarrolladores y
+        Especialistas
+      </h5>
+      <div class="row">
+        <!-- Contenedor de Slideshow -->
+        <div class="col slideshow-container">
+          <!-- Imágenes de ancho completo con número y texto de título -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img class="imgslide" src="images/foto01.jpg" />
+            <div class="text">Atenea Advertising</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img class="imgslide" src="images/foto02.jpg" />
+            <div class="text">Cúpula Group</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img class="imgslide" src="images/foto03.jpg" />
+            <div class="text">Digital Strategist</div>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col">
           <footer class="bg-light text-center text-lg-start">
-            <div
-              class="text-center p-3"
-              style="background-color: rgba(0, 0, 0, 0.2)"
-            >
+            <div class="pie text-center p-3">
               © Front end Academy - 2022
               <a
                 class="text-dark"
@@ -145,5 +189,6 @@
     </div>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/function.js"></script>
   </body>
 </html>
